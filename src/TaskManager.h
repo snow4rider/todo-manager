@@ -15,7 +15,7 @@ class TaskManager {
         bool markTaskPending(const std::string& id);
 
         // Getters
-        const std::vector<std::shared_ptr<Task>>& getTask() const;
+        const std::vector<std::shared_ptr<Task>>& getTasks() const;
         std::shared_ptr<Task> getTaskById(const std::string& id) const;
         int getPendingCount() const;
         int getDoneCount() const;
