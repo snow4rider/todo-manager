@@ -30,8 +30,8 @@ private:
     std::string title;
     std::string description;
     Status status;
-    std::chrono::system_clock::time_point createAt;
+    std::chrono::system_clock::time_point createdAt;
 
-    // Helper to generate unique ID
+    // Helper to generate a unique ID
     static std::string generateId();
 };
